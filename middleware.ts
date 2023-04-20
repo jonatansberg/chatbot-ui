@@ -10,8 +10,8 @@ export default withAuth({
       if (token?.name && !token?.email) {
         return false;
       } else {
-        const pattern = process.env.NEXTAUTH_EMAIL_PATTERN || '';
-        if (!pattern || token?.email?.match(pattern)) {
+        const pattern = process.env.NEXTAUTH_EMAIL_DOMAIN || '';
+        if (!pattern || token?.email?.endsWith(pattern)) {
           return true;
         }
         return false;

@@ -9,5 +9,5 @@ export interface ProcessEnv {
   GOOGLE_CLIENT_ID?: string;
   GOOGLE_CLIENT_SECRET?: string;
   NEXTAUTH_ENABLED: 'true' | 'false';
-  NEXTAUTH_EMAIL_PATTERN?: string;
+  NEXTAUTH_EMAIL_DOMAIN?: string;
 }

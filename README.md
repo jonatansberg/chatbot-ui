@@ -107,7 +107,7 @@ When deploying the application, the following environment variables can be set:
 | GOOGLE_API_KEY                    |                                | See [Custom Search JSON API documentation][GCSE]                                                                                          |
 | GOOGLE_CSE_ID                     |                                | See [Custom Search JSON API documentation][GCSE]                                                                                          |
 | NEXTAUTH_ENABLED                  | `false`                        | Enable SSO authentication. set 'true' or 'false'                                                                                          |
-| NEXTAUTH_EMAIL_PATTERN            |                                | The email regex pattern granted access to chatbot-ui                                                                                      |
+| NEXTAUTH_EMAIL_DOMAIN             |                                | The email domain granted access to chatbot-ui                                                                                      |
 | NEXTAUTH_URL                      | `http://localhost:3000`        | NextAuth Settings. See [Official Document](https://next-auth.js.org/configuration/options)                                                |
 | NEXTAUTH_SECRET                   |                                | NextAuth Settings. See [Official Document](https://next-auth.js.org/configuration/options)                                                |
 | GITHUB_CLIENT_ID                  |                                | GitHub OAuth Client ID for NextAuth                                                                                                       |
